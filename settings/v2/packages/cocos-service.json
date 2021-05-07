@@ -1,0 +1,81 @@
+{
+  "__version__": "3.0.0",
+  "game": {
+    "app_id": "663498847",
+    "c_id": "0",
+    "name": "Service测试"
+  },
+  "appConfigMaps": [
+    {
+      "app_id": "UNKNOW",
+      "config_id": "cd882b"
+    },
+    {
+      "app_id": "663498847",
+      "config_id": "24fc1e"
+    }
+  ],
+  "configs": [
+    {
+      "app_id": "UNKNOW",
+      "config_id": "cd882b",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": [
+        {
+          "service_id": "313",
+          "enable": false,
+          "param": {}
+        }
+      ]
+    },
+    {
+      "app_id": "663498847",
+      "config_id": "24fc1e",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": [
+        {
+          "service_id": "313",
+          "enable": true,
+          "param": {
+            "appKey": "7eae0567827cfe2b22874061763f30c9",
+            "appId_Android": "",
+            "appId_iOS": "a5b0e8491845b3",
+            "isChinaPublish": true,
+            "enableSources": [
+              {
+                "id": 15
+              }
+            ],
+            "plugin_version": "2.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "app_id": "663498847",
+      "config_id": "2061f5",
+      "config_name": "android",
+      "config_remarks": "",
+      "services": [
+        {
+          "service_id": "313",
+          "enable": true,
+          "param": {
+            "appKey": "4f7b9ac17decb9babec83aac078742c7",
+            "appId_Android": "a5aa1f9deda26d",
+            "appId_iOS": "",
+            "isChinaPublish": true,
+            "enableSources": [
+              {
+                "id": 15
+              }
+            ],
+            "plugin_version": "2.0.0"
+          }
+        }
+      ]
+    }
+  ]
+}
